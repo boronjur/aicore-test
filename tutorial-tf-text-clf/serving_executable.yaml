@@ -25,7 +25,7 @@ spec:
           - name: dockerjurajb
         containers:
         - name: kfserving-container
-          image: "docker.io/jurajboron/movie-review-clf-serve:0.0.1"
+          image: "docker.io/jurajboron/movie-review-clf-server:0.0.1"
           ports:
             - containerPort: 9001
               protocol: TCP
